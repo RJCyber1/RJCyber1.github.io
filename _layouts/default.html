@@ -48,7 +48,7 @@
     <div class="container">
       <div class="title-container">
         <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: rjcyber1.github.io }}</h1>
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         {% include navbar.html %}
       </div>
